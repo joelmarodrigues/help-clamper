@@ -1,0 +1,38 @@
+{
+  "//": "PWA Manifest Configuration",
+  "//": "This file defines how the app behaves when installed on a device.",
+  "//": "Learn more: https://developer.mozilla.org/en-US/docs/Web/Manifest",
+
+  "id": "/",
+  "name": "UK Vehicle Registration Lookup",
+  "short_name": "UK VRM Lookup",
+  "description": "Look up UK vehicle registration details using the official DVLA API. Educational full-stack project.",
+  
+  "start_url": "/",
+  "display": "standalone",
+  
+  "//": "Theme colors - Uses UK official blue (#003d7a)",
+  "background_color": "#003d7a",
+  "theme_color": "#003d7a",
+  
+  "//": "Icons - Required for PWA installation",
+  "//": "purpose 'any': Standard app icon",
+  "//": "purpose 'maskable': Adaptive icon with safe zone for different device shapes",
+  "icons": [
+    { 
+      "src": "/icons/icon-192.png", 
+      "sizes": "192x192", 
+      "type": "image/png", 
+      "purpose": "any" 
+    },
+    { 
+      "src": "/icons/icon-512.png", 
+      "sizes": "512x512", 
+      "type": "image/png", 
+      "purpose": "any" 
+    }
+  ],
+  
+  "//": "App categories for app stores",
+  "categories": ["utilities", "education", "productivity"]
+}

@@ -1,0 +1,8 @@
+# Python dependencies for UK VRM Lookup API
+# These packages provide the core functionality for the FastAPI server
+
+fastapi==0.115.12        # Web framework for building APIs
+uvicorn==0.34.3          # ASGI server to run FastAPI
+httpx==0.28.1            # HTTP client for calling DVLA API
+python-dotenv==1.0.1     # Load environment variables from .env file
+pydantic==2.10.3         # Data validation and parsing
